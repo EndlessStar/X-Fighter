@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD71F5341F0A8B1F001B50A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */; };
+		FD71F5361F0A8B1F001B50A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD71F5351F0A8B1F001B50A2 /* GameScene.sks */; };
+		FD71F5381F0A8B1F001B50A2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5371F0A8B1F001B50A2 /* GameScene.swift */; };
+		FD71F53A1F0A8B1F001B50A2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5391F0A8B1F001B50A2 /* GameViewController.swift */; };
+		FD71F53D1F0A8B1F001B50A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD71F53B1F0A8B1F001B50A2 /* Main.storyboard */; };
+		FD71F53F1F0A8B1F001B50A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD71F53E1F0A8B1F001B50A2 /* Assets.xcassets */; };
+		FD71F5421F0A8B1F001B50A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD71F5401F0A8B1F001B50A2 /* LaunchScreen.storyboard */; };
+		FD71F54D1F0A8B1F001B50A2 /* X_FighterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F54C1F0A8B1F001B50A2 /* X_FighterTests.swift */; };
+		FD71F5581F0A8B1F001B50A2 /* X_FighterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5571F0A8B1F001B50A2 /* X_FighterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD71F5491F0A8B1F001B50A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD71F5281F0A8B1F001B50A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD71F52F1F0A8B1F001B50A2;
+			remoteInfo = "X-Fighter";
+		};
+		FD71F5541F0A8B1F001B50A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD71F5281F0A8B1F001B50A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD71F52F1F0A8B1F001B50A2;
+			remoteInfo = "X-Fighter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD71F5301F0A8B1F001B50A2 /* X-Fighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Fighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD71F5351F0A8B1F001B50A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FD71F5371F0A8B1F001B50A2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FD71F5391F0A8B1F001B50A2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FD71F53C1F0A8B1F001B50A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD71F53E1F0A8B1F001B50A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD71F5411F0A8B1F001B50A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD71F5431F0A8B1F001B50A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD71F5481F0A8B1F001B50A2 /* X-FighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-FighterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD71F54C1F0A8B1F001B50A2 /* X_FighterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_FighterTests.swift; sourceTree = "<group>"; };
+		FD71F54E1F0A8B1F001B50A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD71F5531F0A8B1F001B50A2 /* X-FighterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-FighterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD71F5571F0A8B1F001B50A2 /* X_FighterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_FighterUITests.swift; sourceTree = "<group>"; };
+		FD71F5591F0A8B1F001B50A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD71F52D1F0A8B1F001B50A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F5451F0A8B1F001B50A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F5501F0A8B1F001B50A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD71F5271F0A8B1F001B50A2 = {
+			isa = PBXGroup;
+			children = (
+				FD71F5321F0A8B1F001B50A2 /* X-Fighter */,
+				FD71F54B1F0A8B1F001B50A2 /* X-FighterTests */,
+				FD71F5561F0A8B1F001B50A2 /* X-FighterUITests */,
+				FD71F5311F0A8B1F001B50A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD71F5311F0A8B1F001B50A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD71F5301F0A8B1F001B50A2 /* X-Fighter.app */,
+				FD71F5481F0A8B1F001B50A2 /* X-FighterTests.xctest */,
+				FD71F5531F0A8B1F001B50A2 /* X-FighterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD71F5321F0A8B1F001B50A2 /* X-Fighter */ = {
+			isa = PBXGroup;
+			children = (
+				FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */,
+				FD71F5351F0A8B1F001B50A2 /* GameScene.sks */,
+				FD71F5371F0A8B1F001B50A2 /* GameScene.swift */,
+				FD71F5391F0A8B1F001B50A2 /* GameViewController.swift */,
+				FD71F53B1F0A8B1F001B50A2 /* Main.storyboard */,
+				FD71F53E1F0A8B1F001B50A2 /* Assets.xcassets */,
+				FD71F5401F0A8B1F001B50A2 /* LaunchScreen.storyboard */,
+				FD71F5431F0A8B1F001B50A2 /* Info.plist */,
+			);
+			path = "X-Fighter";
+			sourceTree = "<group>";
+		};
+		FD71F54B1F0A8B1F001B50A2 /* X-FighterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD71F54C1F0A8B1F001B50A2 /* X_FighterTests.swift */,
+				FD71F54E1F0A8B1F001B50A2 /* Info.plist */,
+			);
+			path = "X-FighterTests";
+			sourceTree = "<group>";
+		};
+		FD71F5561F0A8B1F001B50A2 /* X-FighterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD71F5571F0A8B1F001B50A2 /* X_FighterUITests.swift */,
+				FD71F5591F0A8B1F001B50A2 /* Info.plist */,
+			);
+			path = "X-FighterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD71F52F1F0A8B1F001B50A2 /* X-Fighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD71F55C1F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-Fighter" */;
+			buildPhases = (
+				FD71F52C1F0A8B1F001B50A2 /* Sources */,
+				FD71F52D1F0A8B1F001B50A2 /* Frameworks */,
+				FD71F52E1F0A8B1F001B50A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X-Fighter";
+			productName = "X-Fighter";
+			productReference = FD71F5301F0A8B1F001B50A2 /* X-Fighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD71F5471F0A8B1F001B50A2 /* X-FighterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD71F55F1F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-FighterTests" */;
+			buildPhases = (
+				FD71F5441F0A8B1F001B50A2 /* Sources */,
+				FD71F5451F0A8B1F001B50A2 /* Frameworks */,
+				FD71F5461F0A8B1F001B50A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD71F54A1F0A8B1F001B50A2 /* PBXTargetDependency */,
+			);
+			name = "X-FighterTests";
+			productName = "X-FighterTests";
+			productReference = FD71F5481F0A8B1F001B50A2 /* X-FighterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD71F5521F0A8B1F001B50A2 /* X-FighterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD71F5621F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-FighterUITests" */;
+			buildPhases = (
+				FD71F54F1F0A8B1F001B50A2 /* Sources */,
+				FD71F5501F0A8B1F001B50A2 /* Frameworks */,
+				FD71F5511F0A8B1F001B50A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD71F5551F0A8B1F001B50A2 /* PBXTargetDependency */,
+			);
+			name = "X-FighterUITests";
+			productName = "X-FighterUITests";
+			productReference = FD71F5531F0A8B1F001B50A2 /* X-FighterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD71F5281F0A8B1F001B50A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = long;
+				TargetAttributes = {
+					FD71F52F1F0A8B1F001B50A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8N564E4JM3;
+					};
+					FD71F5471F0A8B1F001B50A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FD71F52F1F0A8B1F001B50A2;
+					};
+					FD71F5521F0A8B1F001B50A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FD71F52F1F0A8B1F001B50A2;
+					};
+				};
+			};
+			buildConfigurationList = FD71F52B1F0A8B1F001B50A2 /* Build configuration list for PBXProject "X-Fighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD71F5271F0A8B1F001B50A2;
+			productRefGroup = FD71F5311F0A8B1F001B50A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD71F52F1F0A8B1F001B50A2 /* X-Fighter */,
+				FD71F5471F0A8B1F001B50A2 /* X-FighterTests */,
+				FD71F5521F0A8B1F001B50A2 /* X-FighterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD71F52E1F0A8B1F001B50A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD71F5361F0A8B1F001B50A2 /* GameScene.sks in Resources */,
+				FD71F5421F0A8B1F001B50A2 /* LaunchScreen.storyboard in Resources */,
+				FD71F53F1F0A8B1F001B50A2 /* Assets.xcassets in Resources */,
+				FD71F53D1F0A8B1F001B50A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F5461F0A8B1F001B50A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F5511F0A8B1F001B50A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD71F52C1F0A8B1F001B50A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD71F5381F0A8B1F001B50A2 /* GameScene.swift in Sources */,
+				FD71F53A1F0A8B1F001B50A2 /* GameViewController.swift in Sources */,
+				FD71F5341F0A8B1F001B50A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F5441F0A8B1F001B50A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD71F54D1F0A8B1F001B50A2 /* X_FighterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD71F54F1F0A8B1F001B50A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD71F5581F0A8B1F001B50A2 /* X_FighterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD71F54A1F0A8B1F001B50A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD71F52F1F0A8B1F001B50A2 /* X-Fighter */;
+			targetProxy = FD71F5491F0A8B1F001B50A2 /* PBXContainerItemProxy */;
+		};
+		FD71F5551F0A8B1F001B50A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD71F52F1F0A8B1F001B50A2 /* X-Fighter */;
+			targetProxy = FD71F5541F0A8B1F001B50A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD71F53B1F0A8B1F001B50A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD71F53C1F0A8B1F001B50A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD71F5401F0A8B1F001B50A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD71F5411F0A8B1F001B50A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD71F55A1F0A8B1F001B50A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD71F55B1F0A8B1F001B50A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD71F55D1F0A8B1F001B50A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "X-Fighter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-Fighter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD71F55E1F0A8B1F001B50A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "X-Fighter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-Fighter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD71F5601F0A8B1F001B50A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "X-FighterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-FighterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/X-Fighter.app/X-Fighter";
+			};
+			name = Debug;
+		};
+		FD71F5611F0A8B1F001B50A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "X-FighterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-FighterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/X-Fighter.app/X-Fighter";
+			};
+			name = Release;
+		};
+		FD71F5631F0A8B1F001B50A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "X-FighterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-FighterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "X-Fighter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD71F5641F0A8B1F001B50A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "X-FighterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeCoder.X-FighterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "X-Fighter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD71F52B1F0A8B1F001B50A2 /* Build configuration list for PBXProject "X-Fighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD71F55A1F0A8B1F001B50A2 /* Debug */,
+				FD71F55B1F0A8B1F001B50A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD71F55C1F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-Fighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD71F55D1F0A8B1F001B50A2 /* Debug */,
+				FD71F55E1F0A8B1F001B50A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD71F55F1F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-FighterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD71F5601F0A8B1F001B50A2 /* Debug */,
+				FD71F5611F0A8B1F001B50A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD71F5621F0A8B1F001B50A2 /* Build configuration list for PBXNativeTarget "X-FighterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD71F5631F0A8B1F001B50A2 /* Debug */,
+				FD71F5641F0A8B1F001B50A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD71F5281F0A8B1F001B50A2 /* Project object */;
+}
