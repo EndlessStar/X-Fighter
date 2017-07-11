@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0F2ECF1F14F21300754394 /* VideoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F2ECE1F14F21300754394 /* VideoScene.swift */; };
+		CE0F2ED11F14FCD100754394 /* Sample.m4v in Resources */ = {isa = PBXBuildFile; fileRef = CE0F2ED01F14FCD100754394 /* Sample.m4v */; };
 		FD71F5341F0A8B1F001B50A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */; };
 		FD71F5361F0A8B1F001B50A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD71F5351F0A8B1F001B50A2 /* GameScene.sks */; };
 		FD71F5381F0A8B1F001B50A2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71F5371F0A8B1F001B50A2 /* GameScene.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0F2ECE1F14F21300754394 /* VideoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScene.swift; sourceTree = "<group>"; };
+		CE0F2ED01F14FCD100754394 /* Sample.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sample.m4v; path = "../../../Book/iOS.5.Programming.Cookbook.code/Chapter 9/Playing Video Files/Playing Video Files/Sample.m4v"; sourceTree = "<group>"; };
 		FD71F5301F0A8B1F001B50A2 /* X-Fighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Fighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD71F5351F0A8B1F001B50A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -104,11 +108,13 @@
 				FD71F5331F0A8B1F001B50A2 /* AppDelegate.swift */,
 				FD71F5351F0A8B1F001B50A2 /* GameScene.sks */,
 				FD71F5371F0A8B1F001B50A2 /* GameScene.swift */,
+				CE0F2ECE1F14F21300754394 /* VideoScene.swift */,
 				FD71F5391F0A8B1F001B50A2 /* GameViewController.swift */,
 				FD71F53B1F0A8B1F001B50A2 /* Main.storyboard */,
 				FD71F53E1F0A8B1F001B50A2 /* Assets.xcassets */,
 				FD71F5401F0A8B1F001B50A2 /* LaunchScreen.storyboard */,
 				FD71F5431F0A8B1F001B50A2 /* Info.plist */,
+				CE0F2ED01F14FCD100754394 /* Sample.m4v */,
 			);
 			path = "X-Fighter";
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				FD71F5361F0A8B1F001B50A2 /* GameScene.sks in Resources */,
 				FD71F5421F0A8B1F001B50A2 /* LaunchScreen.storyboard in Resources */,
 				FD71F53F1F0A8B1F001B50A2 /* Assets.xcassets in Resources */,
+				CE0F2ED11F14FCD100754394 /* Sample.m4v in Resources */,
 				FD71F53D1F0A8B1F001B50A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0F2ECF1F14F21300754394 /* VideoScene.swift in Sources */,
 				FD71F5381F0A8B1F001B50A2 /* GameScene.swift in Sources */,
 				FD71F53A1F0A8B1F001B50A2 /* GameViewController.swift in Sources */,
 				FD71F5341F0A8B1F001B50A2 /* AppDelegate.swift in Sources */,

@@ -24,11 +24,15 @@ class GameScene: SKScene {
         let sprite = SKSpriteNode(imageNamed:"Spaceship")
         
         sprite.name = "SpaceShip"
-        sprite.xScale = 0.1
-        sprite.yScale = 0.1
+        sprite.xScale = 0.3
+        sprite.yScale = 0.3
         sprite.position = CGPoint(x: self.frame.width / 2.0, y: self.frame.height / 2.0)
         
         self.addChild(sprite)
+        
+        let light = SKSpriteNode(color: UIColor.yellow, size: CGSize(width: 20.0, height: 20.0))
+        light.zPosition = 50.0
+        sprite.addChild(light)
         
         let bulletSprite = self.createBulletSprite(at: sprite.position)
         let moveAction = SKAction.move(to: CGPoint(x: sprite.position.x, y: self.frame.height), duration: 0.6)
@@ -37,8 +41,6 @@ class GameScene: SKScene {
         let remove = SKAction.removeFromParent()
         bulletSprite.run(SKAction.sequence([moveAction, remove]))
         
-//        Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
-        
         let makeBullets = SKAction.sequence([SKAction.perform(#selector(fire), onTarget: self),
                                            SKAction.wait(forDuration: 0.30, withRange: 0.15)])
         let makeRocks = SKAction.sequence([SKAction.perform(#selector(addRock), onTarget: self),
@@ -46,6 +48,8 @@ class GameScene: SKScene {
         
         self.run(SKAction.repeatForever(makeBullets))
         self.run(SKAction.repeatForever(makeRocks))
+        
+        self.addSwitchButton()
     }
     
     func fire() {
@@ -58,6 +62,48 @@ class GameScene: SKScene {
             let moveAction = SKAction.move(to: CGPoint(x: sprite.position.x, y: self.frame.height), duration: 0.6)
             let remove = SKAction.removeFromParent()
             bulletSprite.run(SKAction.sequence([moveAction, remove]))
+        }
+    }
+    
+    func addSwitchButton() {
+        let button = UIButton(frame: CGRect(x: 20, y: 20, width: 100, height: 20))
+        button.setTitle("Switch", for: .normal)
+        button.addTarget(self, action: #selector(clickSwitchButton(sender:)), for: .touchUpInside)
+        self.view?.addSubview(button)
+        
+//        let ball = SKShapeNode(ellipseIn: CGRect(x: self.frame.midX, y: self.frame.midY, width: 100, height: 100))
+//        ball.fillColor = UIColor.green
+//        ball.strokeColor = UIColor.red
+//        ball.lineWidth = 3.0
+//        ball.glowWidth = 15.0
+//        self.addChild(ball)
+//        let switchLabel = SKLabelNode(text: "Switch")
+//        switchLabel.position = CGPoint(x:self.frame.midX, y:self.frame.midY)
+//        switchLabel.fontName = "Chalkduster"
+//        switchLabel.color = UIColor.red
+//        switchLabel.fontSize = 30.0
+//        switchLabel.zPosition = 1.0
+//        self.addChild(switchLabel)
+//
+//        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
+//        myLabel.text = "Hello, World!"
+//        myLabel.fontSize = 20
+//        myLabel.position = CGPoint(x:self.frame.midX, y:self.frame.midY)
+//        myLabel.name = "HelloNode"
+//        self.addChild(myLabel)
+    }
+    
+    func clickSwitchButton(sender: UIButton?) {
+        let transition = SKTransition.fade(with: UIColor.red, duration: 2)
+        let videoScene = VideoScene(size: self.size)
+        
+        transition.pausesOutgoingScene = false
+        transition.pausesIncomingScene = false
+        
+        if self.view?.scene == self {
+            self.view?.presentScene(videoScene, transition: transition)
+        } else {
+            self.view?.presentScene(self, transition: transition)
         }
     }
     
